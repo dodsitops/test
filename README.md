@@ -11,6 +11,6 @@
     </Directory>
 
     ErrorLog @document_root/error.log
-    CustomLog @docume_root/access.log combined
+    CustomLog @document_root/access.log combined
 </VirtualHost>
 ```
