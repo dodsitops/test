@@ -1,5 +1,5 @@
 # Apache Configuration
-
+```apache
 <VirtualHost *:80>
     ServerName  @server_name
     DocumentRoot @document_root
@@ -13,4 +13,4 @@
     ErrorLog @document_root/error.log
     CustomLog @docume_root/access.log combined
 </VirtualHost>
-
+```
